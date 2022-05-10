@@ -1,0 +1,6 @@
+a = int(input())
+x,y = divmod(a,100)
+y,z = divmod(y,50)
+z,a = divmod(z,10)
+a,b = divmod(a,5)
+print(x+y+z+a+b)

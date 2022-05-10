@@ -1,0 +1,6 @@
+all = set(['John','Mary','Tina','Fiona','Claire','Eva','Ben','Bill','Bert'])
+eg = set(['John','Mary','Fiona','Claire','Ben','Bill'])
+math = set(['Mary','Fiona','Claire','Eva','Ben'])
+print("英文與數學都及格",(eg & math))
+print("數學不及格",(all - math))
+print("英文及格且數學不及格",((eg & (all - math))))

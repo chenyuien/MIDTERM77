@@ -1,0 +1,6 @@
+a = input("請輸入英文句子:")
+a.strip(".")
+a.strip()
+b = a.split()
+b.reverse()
+print(b)

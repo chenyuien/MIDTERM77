@@ -1,0 +1,5 @@
+a = list(input().split("，"))
+b = "".join(a).split("。")
+b = "".join(b)
+c = set([num for num in b if b.count(num) > 1])
+print(c)

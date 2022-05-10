@@ -1,0 +1,6 @@
+num_list = input("輸入值為:").split(",")
+small2big = sorted(num_list)
+big2small = sorted(num_list,reverse=True)
+max_num = int("".join(big2small))
+min_num = int("".join(small2big))
+print("最大值數列與最小值數列差值為："+str(max_num-min_num))
